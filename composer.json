@@ -1,0 +1,23 @@
+{
+  "name": "idgobpe-sdk/php",
+  "version": "1.0.0",
+  "description": "SDK for connect with ID Gob.pe",
+  "repository": "git@github.com:idgobpe-sdk/idgobpe_sdk_php.git",
+  "keywords": [
+    "pcm",
+    "idgobpe"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "author": "PCM",
+  "homepage": "https://id.gob.pe",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PCM\\Idgobpe\\": "src/"
+    }
+  }
+}
